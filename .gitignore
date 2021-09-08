@@ -1,0 +1,9 @@
+# Node
+node_modules
+
+# IDEA
+.idea
+
+# 项目排除路径
+/build/
+/dist/
