@@ -72,6 +72,13 @@ async function plugin(
   }
 
   Mousetrap.bind('e o', exportMarkdown)
+
+  window.addEventListener('simpread-plugin', function(_e) {
+    const e = _e as SimpreadEvent
+    if (e.detail?.type == 'export' && e.detail.value.startsWith('plugin_' + pluginId)) {
+      e.detail.value.endsWith('export') && exportMarkdown()
+    }
+  })
 }
 
 const style = () => ``
