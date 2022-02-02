@@ -27,7 +27,7 @@
     "prettier": "^2.3.2",
     "sass": "^1.39.0",
     "sass-loader": "^12.1.0",
-    "terser-webpack-plugin": "^5.2.3",
+    "terser-webpack-plugin": "^5.3.1",
     "to-string-loader": "github:gajus/to-string-loader",
     "ts-loader": "^9.2.5",
     "ts-node": "^10.2.1",
